@@ -587,10 +587,11 @@
         var msg = document.getElementById("auto-msg");
 
         var ANDROID_URL =
-          "https://play.google.com/store/apps/details?id=com.monpetitpronostic";
-        var IOS_URL = "https://apps.apple.com/app/mon-petit-pronostic";
+          "https://play.google.com/store/apps/details?id=com.monpetitprono.monpetitpronoapp&gl=FR";
+        var IOS_URL =
+          "https://apps.apple.com/fr/app/monpetitprono-by-mpg/id1378863579";
 
-        if (isIOS) {
+        /*if (isIOS) {
           btnIOS.classList.replace("btn-secondary", "btn-primary");
           btnAndroid.classList.replace("btn-primary", "btn-secondary");
           msg.textContent = "✓ Appareil Apple détecté — App Store recommandé";
@@ -603,7 +604,7 @@
           setTimeout(function () {
             window.location.href = ANDROID_URL;
           }, 2200);
-        }
+        }*/
       })();
     </script>
   </body>
